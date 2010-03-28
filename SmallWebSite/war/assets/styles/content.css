@@ -1,0 +1,252 @@
+/* Content */
+
+		#content h2 {
+			color:#657E4E;
+			font-size:1.5em;
+			margin-bottom:7px;
+		}
+		#content h3 {
+			color:#666;
+			font-size:0.94em;
+			line-height:1.2;
+		}
+		#content #intro {
+			color:#657E4E;
+			font-family:Georgia,Times,'Times New Roman',serif;
+			font-size:0.94em;
+			line-height:1.2;
+		}
+		#content p {
+			color:#666;
+			font-family:Arial,Helvetica,sans-serif;
+			font-size:0.75em;
+			line-height:1.35;
+			margin-bottom:15px;
+		}
+		#content a:link,
+		#content a:visited {
+			color:#697B51;
+		}
+		#content a:hover,
+		#content a:focus,
+		#content a:active {
+			text-decoration:none;
+		}
+		#section-summary h3 {
+			font-size:0.81em;
+			margin-bottom:3px;
+		}
+		#section-summary h3 a:link,
+		#section-summary h3 a:visited {
+			color:#697B51;
+			text-decoration:none;
+		}
+		#section-summary h3 a:hover,
+		#section-summary h3 a:focus,
+		#section-summary h3 a:active {
+			text-decoration:underline;
+		}
+		#section-summary p {
+			color:#666;
+			font-family:Arial,Helvetica,sans-serif;
+			font-size:0.75em;
+			line-height:1.35;
+			margin-bottom:15px;
+		}
+		
+	/* Sidebar content */
+	
+		#sidebar a:link,
+		#sidebar a:visited {
+			color:#697B51;
+			text-decoration:underline;
+		}
+		#sidebar a:hover,
+		#sidebar a:focus,
+		#sidebar a:active {
+			text-decoration:none;
+		}
+		.promo {
+			border:1px solid #697b52;
+			border-top:none;
+			margin-bottom:10px;
+			min-height:170px; /* IE6 fix */
+			overflow:visible;
+			width:368px;
+			z-index:1;
+		}
+		.promo h3 {
+			background:url(../images/sidebar/promo-h2.png) no-repeat;
+			color:#FFF;
+			font-size:0.94em;
+			margin-left:-1px;
+			padding:6px;
+			width:370px;
+			z-index:10;
+		}
+		.promo.vineyard {
+			background:url(../images/sidebar/promo-img.jpg) no-repeat 6px 33px;
+		}
+		.promo p {
+			color:#666;
+			font-family:Arial,Helvetica,sans-serif;
+			font-size:0.75em;
+			line-height:1.35;
+			margin: 3px 0 0 205px;
+		}
+
+	/* Home page */
+		
+		#home #page {
+			background:#FFF url(../images/home/home-page.jpg) no-repeat 505px 123px;
+		}
+		#welcome {
+			background:#E0E0E0;
+			color:#697B51;
+			min-height:211px; /* Check in IE6 */
+			margin:8px 0;
+			padding:50px 25px 25px;
+			width:440px;
+		}
+		#welcome h2 {
+			color:#657E4E;
+			font-size:1.88em;
+			margin-bottom:8px;
+		}
+		#welcome p {
+			color:#656565;
+			font-size:1.06em;
+			line-height:1.45;
+		}
+		#welcome a:link,
+		#welcome a:visited {
+			color:#697B51;
+		}
+		#welcome a:hover,
+		#welcome a:focus,
+		#welcome a:active {
+			text-decoration:none;
+		}
+		#home #section-summary {
+			overflow:hidden;
+			width:990px;
+		}
+		#home #section-summary li {
+			float:left;
+			padding-top:165px;
+			width:237px;
+		}
+		#section-summary #about {
+			background:url(../images/home/home-about.jpg) no-repeat;			
+			margin-right:16px;
+		}
+		#section-summary #wines {
+			background:url(../images/home/home-wines.jpg) no-repeat;
+			margin-right:10px;				
+		}
+		#section-summary #visit {
+			background:url(../images/home/home-visit.jpg) no-repeat;
+			margin-right:16px;			
+		}
+		#section-summary #contact {
+			background:url(../images/home/home-contact.jpg) no-repeat;	
+			margin-right:0;					
+		}
+		
+	/* About / Wines / Visit pages */
+	
+		#about #content,
+		#wines #content,
+		#visit #content {
+			float:right;
+			width:812px;
+		}	
+		#about #content {
+			background:url(../images/about/about-content.jpg) no-repeat;
+			padding-top:204px;
+		}
+		#wines #content {
+			background:url(../images/wines/wines-content.jpg) no-repeat;
+			padding-top:204px;
+		}
+		#visit #content {
+			background:url(../images/visit/visit-content.jpg) no-repeat;
+			padding-top:204px;
+		}
+		#about #content p,
+		#wines #content p,
+		#visit #content p,
+		#about #content h2,
+		#wines #content h2,
+		#visit #content h2 {
+			width:600px;
+		}
+		
+		/* Section summary */
+		
+			#section-summary {
+				width:812px;
+			}
+			#section-summary li {
+				float:left;
+				margin-right:16px;
+				padding-top:131px;
+				width:190px;
+			}
+			#section-summary li:last-child {
+				margin-right:0; /* Check in IE6/7 */
+			}
+			#section-summary #history {
+				background:url(../images/about/about-history.jpg) no-repeat;			
+			}
+			#section-summary #family {
+				background:url(../images/about/about-family.jpg) no-repeat;			
+			}
+			#section-summary #news {
+				background:url(../images/about/about-news.jpg) no-repeat;			
+			}
+			#section-summary #awards {
+				background:url(../images/about/about-awards.jpg) no-repeat;	
+				margin-right:0;		
+			}
+			#section-summary #wine-tasting {
+				background:url(../images/visit/visit-wine-tasting.jpg) no-repeat;	
+			}
+			#section-summary .event {
+				background:none;	
+				padding-top:0;
+			}
+			#about #section-summary p,
+			#visit #section-summary p {
+				width:auto;
+			}
+		
+	/* Contact page */
+	
+		#contact #content {
+			float:left;
+			padding-left:5px;
+			width:595px;
+		}
+		#contact #sidebar {
+			background:url(../images/contact/contact-sidebar.jpg) no-repeat;
+			float:right;
+			padding-top:204px;
+			width:373px;
+		}
+		
+	/* Standard content page */
+	
+		#standard #content {
+			float:left;
+			margin-left:20px;
+			width:420px;
+		}
+		#standard #sidebar {
+			float:right;
+			width:370px;
+		}
+		#standard #sidebar img {
+			margin-bottom:10px;
+		}
+		
