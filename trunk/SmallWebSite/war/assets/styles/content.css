@@ -162,7 +162,7 @@
 			width:812px;
 		}	
 		#about #content {
-			background:url(../images/about/about-content.jpg) no-repeat;
+			background:url(../images/family/about-content.jpg) no-repeat;
 			padding-top:204px;
 		}
 		#wines #content {
@@ -197,16 +197,16 @@
 				margin-right:0; /* Check in IE6/7 */
 			}
 			#section-summary #history {
-				background:url(../images/about/about-history.jpg) no-repeat;			
+				background:url(../images/family/about-history.jpg) no-repeat;			
 			}
 			#section-summary #family {
-				background:url(../images/about/about-family.jpg) no-repeat;			
+				background:url(../images/family/about-family.jpg) no-repeat;			
 			}
 			#section-summary #news {
-				background:url(../images/about/about-news.jpg) no-repeat;			
+				background:url(../images/family/about-news.jpg) no-repeat;			
 			}
 			#section-summary #awards {
-				background:url(../images/about/about-awards.jpg) no-repeat;	
+				background:url(../images/family/about-awards.jpg) no-repeat;	
 				margin-right:0;		
 			}
 			#section-summary #wine-tasting {
