@@ -3,17 +3,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-	
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	
 	<title>Tenuta Roveglia - Visit us</title>
-	
-	<link href="/assets/styles/load.css" rel="stylesheet" type="text/css" media="screen" />
-	<!-- <link href="/assets/styles/print.css" rel="stylesheet" type="text/css" media="print" /> -->
-	
+	<link href="../../assets/styles/load.css" rel="stylesheet" type="text/css" media="screen" />
+    <script type="text/javascript">
+		function BigImage(){
+			//alert(document.getElementById('welcome').clientHeight);
+			document.getElementById('BigImageFamiglia').style.height = document.getElementById('welcome').clientHeight + 'px'; 
+		}
+    </script>	
 </head>
 
-<body id="home">
+<body id="home" onLoad="BigImage();">
 	
 	<div id="page">
 
@@ -43,25 +44,30 @@
 			
 		</div>
 		<!-- /#header -->
-		
+		<div id="CenterPage">
 		<div id="welcome">
 			
 			<p>Su una terra già coltivata dai romani – i vecchi contadini ricordano che gli aratri portavano alla luce monete e  antichi reperti -  si levano le mura quattrocentesche della Cascina Roveglia. Nella vecchia stalla dove le travi, il  pavimento e paratie di marmo rosa di Verona ricordano l’antico uso, si apre ora, con mobili antichi e quadri di famiglia, un luogo deputato a degustazioni e eventi conviviali. In una loggetta del XIX secolo si offre all’ospite la degustazione del vino e la vendita. In antiche cantine  il vino riposa come un tempo in botti di rovere. E, inserito in questo contesto che rimanda al passato, sorge la nuova cantina con impianti di altissimo livello tecnologico. All’ospite la Tenuta Roveglia non offre solo il ricordo della sua storia , ma anche uno sguardo nel presente più avanzato della vitivinicultura  e la possibilità di seguire tutto il ciclo produttivo.</p>
 						
 		</div>
+	  <div id="BigImageFamiglia">
+	  </div>      
+      </div>        
 		<!-- /#welcome -->
-		
+
+		<div style="clear:both"/>
 		<ul id="section-summary"> 
-			<li id="about">
+			<li id="history">
 			</li>
 			
-			<li id="wines">
+			<li id="family">
 			</li>
 			
-			<li id="visit">
+			<li id="news">
 			</li>
 			
-			<li id="contact">
+			<li id="awards">
+
 			</li>
 		</ul>
 		<!-- /#section-summary -->	

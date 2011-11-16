@@ -10,7 +10,13 @@
 	
 	<link href="/assets/styles/load.css" rel="stylesheet" type="text/css" media="screen" />
 	<!-- <link href="/assets/styles/print.css" rel="stylesheet" type="text/css" media="print" /> -->
-	
+	<script language="javascript">
+	function roll_over(img_name, img_src)
+	{
+	   document.getElementById(img_name).src = img_src;
+	}	
+    </script>
+
 </head>
 
 <body id="wines">
@@ -53,32 +59,23 @@
 		<!-- /#breadcrumbs -->		
 
 		<h2 class="removed">Section navigation</h2>
-		
-		<ul id="sub-nav">
-			<li><a href="/en/wines/lugana-limne.html">Lugana "Limne"</a></li>
-			<li><a href="/en/wines/lugana-vigne-di-catullo.html">Lugana "Vigne di Catullo"</a></li>
-			<li><a href="/en/wines/lugana-filo-di-arianna.html">Lugana "Filo di Arianna"</a></li>
-			<li><a href="/en/wines/lugana-brut.html">Lugana Brut</a></li>
-			<li><a href="/en/wines/benaco-bresciano-ocros.html">Benaco Bresciano "Ocros"</a></li>
-			<li><a href="/en/wines/miti.html">Miti</a></li>
-			<li><a href="/en/wines/ruvus.html">Ruvus</a></li>
-			<li><a href="/en/wines/ca-d-oro.html">Ca'd'Oro</a></li>
-			<li><a href="/en/wines/vitis-alba.html">Vitis Alba</a></li>
-			<li><a href="/en/wines/grappa-di-lugana-limne.html">Grappa di Lugana Limne</a></li>
-			<li><a href="/en/wines/grappa-di-lugana-vigne-di-catullo.html">Grappa di Lugana Vigne di Catullo</a></li>
-		</ul>
 		<!-- /#sub-nav -->
 		
-		<div id="content">
-			
-			<h2>Our wines</h2>
-			
-			<p>On the southern shores of Lake Garda, in a terrain full of history and considered to be premier cru, stands the ancient Roveglia farmstead. This is the only surviving example in this area of 15th century Lombardy architecture. The surrounding land, hidden under vines, is a terroir whose history goes back 200 million years. It’s the union of the ancient and clayey soil with a native vine that produces an extraordinary wine called Lugana.</p>
-			
-		</div>
-		<!-- /#content -->
-		
-	</div>
+	  <div id="content">
+      <a href="/en/wines/lugana-limne.html" onmouseover="roll_over('imgLimne', '../../assets/images/wines/Limne.jpg')" onmouseout="roll_over('imgLimne', '../../assets/images/wines/Limne_bn.jpg')"><img src="../../assets/images/wines/Limne_bn.jpg" alt="" width="78" height="400" id="imgLimne" border="0"/></a>
+      <a href="/en/wines/lugana-vigne-di-catullo.html" onmouseover="roll_over('imgCatullo', '../../assets/images/wines/Catullo.jpg')" onmouseout="roll_over('imgCatullo', '../../assets/images/wines/Catullo_bn.jpg')"><img src="../../assets/images/wines/Catullo_bn.jpg" alt="" width="82" height="400" id="imgCatullo" border="0"/></a>
+      <a href="/en/wines/lugana-filo-di-arianna.html" onmouseover="roll_over('imgArianna', '../../assets/images/wines/Arianna.jpg')" onmouseout="roll_over('imgArianna', '../../assets/images/wines/Arianna_bn.jpg')"><img src="../../assets/images/wines/Arianna_bn.jpg" alt="" width="82" height="400" id="imgArianna" border="0"/></a>
+      <a href="/en/wines/lugana-brut.html" onmouseover="roll_over('imgBrut', '../../assets/images/wines/Brut.jpg')" onmouseout="roll_over('imgBrut', '../../assets/images/wines/Brut_bn.jpg')"><img src="../../assets/images/wines/Brut_bn.jpg" alt="" width="94" height="400" id="imgBrut" border="0"/></a>
+      <a href="/en/wines/benaco-bresciano-ocros.html" onmouseover="roll_over('imgOcros', '../../assets/images/wines/Ocros.jpg')" onmouseout="roll_over('imgOcros', '../../assets/images/wines/Ocros_bn.jpg')"><img src="../../assets/images/wines/Ocros_bn.jpg" alt="" width="86" height="400" id="imgOcros" border="0"/></a>
+      <a href="/en/wines/miti.html" onmouseover="roll_over('imgMiti', '../../assets/images/wines/Miti.jpg')" onmouseout="roll_over('imgMiti', '../../assets/images/wines/Miti_bn.jpg')"><img src="../../assets/images/wines/Miti_bn.jpg" alt="" width="86" height="400" id="imgMiti" border="0"/></a>
+      <a href="/en/wines/ruvus.html" onmouseover="roll_over('imgRuvus', '../../assets/images/wines/Ruvus.jpg')" onmouseout="roll_over('imgRuvus', '../../assets/images/wines/Ruvus_bn.jpg')"><img src="../../assets/images/wines/Ruvus_bn.jpg" alt="" width="86" height="400" id="imgRuvus" border="0"/></a>
+      <a href="/en/wines/ca-d-oro.html" onmouseover="roll_over('imgCaDoro', '../../assets/images/wines/CaDoro.jpg')" onmouseout="roll_over('imgCaDoro', '../../assets/images/wines/CaDoro_bn.jpg')"><img src="../../assets/images/wines/CaDoro_bn.jpg" alt="" width="86" height="400" id="imgCaDoro" border="0"/></a>
+      <a href="/en/wines/vitis-alba.html" onmouseover="roll_over('imgVisitAlba', '../../assets/images/wines/VitisAlba.jpg')" onmouseout="roll_over('imgVisitAlba', '../../assets/images/wines/VitisAlba_bn.jpg')"><img src="../../assets/images/wines/VitisAlba_bn.jpg" alt="" width="70" height="400" id="imgVisitAlba" border="0"/></a>
+      <a href="/en/wines/grappa-di-lugana-limne.html" onmouseover="roll_over('imgGrappa', '../../assets/images/wines/Grappa.jpg')" onmouseout="roll_over('imgGrappa', '../../assets/images/wines/Grappa_bn.jpg')"><img src="../../assets/images/wines/Grappa_bn.jpg" alt="" width="71" height="400" id="imgGrappa" border="0"/></a>
+      <a href="/en/wines/grappa-di-lugana-vigne-di-catullo.html" onmouseover="roll_over('imgGrappaRiserva', '../../assets/images/wines/GrappaRiserva.jpg')" onmouseout="roll_over('imgGrappaRiserva', '../../assets/images/wines/GrappaRiserva_bn.jpg')"><img src="../../assets/images/wines/GrappaRiserva_bn.jpg" alt="" width="65" height="400" id="imgGrappaRiserva" border="0"/></a>
+
+      </div>
+</div>
 	<!-- /#page -->
 	
 	<p id="footer">&copy; Copyright Tenuta Roveglia 2010 | <a href="mailto:info@tenutaroveglia.it">info@tenutaroveglia.it</a></p>

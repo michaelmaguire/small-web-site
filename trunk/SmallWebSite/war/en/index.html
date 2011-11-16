@@ -1,19 +1,18 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
 <head>
-	
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	
 	<title>Tenuta Roveglia</title>
-	
 	<link href="/assets/styles/load.css" rel="stylesheet" type="text/css" media="screen" />
-	<!-- <link href="/assets/styles/print.css" rel="stylesheet" type="text/css" media="print" /> -->
-	
+    <script type="text/javascript">
+		function BigImage(){
+			//alert(document.getElementById('welcome').clientHeight);
+			document.getElementById('BigImage').style.height = document.getElementById('welcome').clientHeight + 'px'; 
+		}
+    </script>
 </head>
 
-<body id="home">
+<body id="home" onLoad="BigImage();">
 	
 	<div id="page">
 
@@ -40,11 +39,12 @@
 				<li>English</li>
 				<li><a href="/de/">Deutsch</a></li>
 			</ul>
+
 			
 		</div>
 		<!-- /#header -->
-		
-		<div id="welcome">
+		<div id="CenterPage">
+	  <div id="welcome">
 			
 			<h2>Welcome to Tenuta Roveglia</h2>
 
@@ -53,25 +53,25 @@
 			In an adjoining, small lodge that dates from the 19th century wine can be sampled and purchased.
 
 			Tenuta Roveglia offers to guests not only a view of this past, but also the opportunity to view the present -- oenological innovation and the chance to follow the complete cycle of wine production.</p>
+	  </div>
 						
-		</div>
+	  <div id="BigImage">
+	  </div>      
+      </div>
 		<!-- /#welcome -->
-		
+		<div style="clear:both"/>
 		<ul id="section-summary"> 
 			<li id="about">
-				<h3><a href="/en/family/">Our family</a></h3>
 			</li>
 			
 			<li id="wines">
-				<h3><a href="/en/wines/">Our wines</a></h3>
 			</li>
+
 			
 			<li id="visit">
-				<h3><a href="/en/visit/">Visit us</a></h3>
 			</li>
 			
 			<li id="contact">
-				<h3><a href="/en/contact/">Contact us</a></h3>
 			</li>
 		</ul>
 		<!-- /#section-summary -->	
@@ -79,7 +79,9 @@
 	</div>
 	<!-- /#page -->
 	
-	<p id="footer">&copy; Copyright Tenuta Roveglia 2010 | <a href="mailto:info@tenutaroveglia.it">info@tenutaroveglia.it</a></p>
+	<p id="footer">&copy; Copyright Tenuta Roveglia 2010 v1 | <a href="mailto:info@tenutaroveglia.it">info@tenutaroveglia.it</a></p>
+
 	
 </body>
+
 </html>

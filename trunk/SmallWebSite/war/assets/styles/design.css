@@ -46,7 +46,7 @@
 			margin-right:5px;
 			padding-left:3px;
 			text-align:center;
-			width:102px; /* Check in IE6 */
+			width:125px; /* Check in IE6 */
 		}
 		#nav a:link,
 		#nav a:visited {
@@ -128,7 +128,7 @@
 			float:left;
 			font-size:0.81em;
 			padding:1px 2px;
-			width:150px;
+			width:220px;
 		}
 		#sub-nav li {
 			margin:5px 0;

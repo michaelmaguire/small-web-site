@@ -95,18 +95,50 @@
 			margin: 3px 0 0 205px;
 		}
 
+    /* CenterPage */
+	
+		#CenterPage {
+			min-height:220px; /* Check in IE6 */
+			margin:0px 0px 0px 0px;
+			padding:0px 0px 0px 0px;
+			width:990px;
+		}	
+	
+	/*  Big Image */
+
+		#BigImage {
+			background:url(../images/home/home-page.jpg) center center no-repeat;
+			min-height:220px; /* Check in IE6 */
+			margin:8px 0;
+			padding:0px 0px 0px 0px;
+			width:490px;
+			float:right;
+		}	
+		
+		#BigImageFamiglia {
+			background:url(../images/family/home-page.jpg) center center no-repeat;
+			min-height:220px; /* Check in IE6 */
+			margin:8px 0;
+			padding:0px 0px 0px 0px;
+			width:490px;
+			float:right;
+		}
+
+	
 	/* Home page */
 		
 		#home #page {
-			background:#FFF url(../images/home/home-page.jpg) no-repeat 505px 123px;
+			/*background:#FFF url(../images/home/home-page.jpg) no-repeat 505px 123px;*/
+			background:#FFF;
 		}
 		#welcome {
 			background:#E0E0E0;
 			color:#697B51;
-			min-height:220px; /* Check in IE6 */
+			height:330px; /* Check in IE6 */
 			margin:8px 0;
 			padding:15px 25px 10px;
 			width:440px;
+			float:left;
 		}
 		#welcome h2 {
 			color:#657E4E;
@@ -116,7 +148,8 @@
 		#welcome p {
 			color:#656565;
 			font-size:1.06em;
-			line-height:1.45;
+			line-height:1.25;
+			text-align:justify;
 		}
 		#welcome a:link,
 		#welcome a:visited {
@@ -134,11 +167,11 @@
 		#home #section-summary li {
 			float:left;
 			padding-top:165px;
-			width:237px;
+			width:240px;
 		}
 		#section-summary #about {
 			background:url(../images/home/home-about.jpg) no-repeat;			
-			margin-right:16px;
+			margin-right:10px;
 		}
 		#section-summary #wines {
 			background:url(../images/home/home-wines.jpg) no-repeat;
@@ -146,7 +179,7 @@
 		}
 		#section-summary #visit {
 			background:url(../images/home/home-visit.jpg) no-repeat;
-			margin-right:16px;			
+			margin-right:10px;			
 		}
 		#section-summary #contact {
 			background:url(../images/home/home-contact.jpg) no-repeat;	
@@ -155,24 +188,29 @@
 		
 	/* About / Wines / Visit pages */
 	
-		#about #content,
-		#wines #content,
-		#visit #content {
-			float:right;
-			width:812px;
-		}	
+		#wines #content {
+			float:center;
+			width:990px;
+			height:400px;
+			text-align:center;
+		}
+		
+		#wines #content img{
+			padding-left:2px;
+			padding-right:2px;
+		}
 		#about #content {
 			background:url(../images/family/about-content.jpg) no-repeat;
 			padding-top:204px;
 		}
 		#wines #content {
-			background:url(../images/wines/wines-content.jpg) no-repeat;
-			padding-top:204px;
+			padding-top:0px;
 		}
 		#visit #content {
 			background:url(../images/visit/visit-content.jpg) no-repeat;
 			padding-top:204px;
 		}
+		
 		#about #content p,
 		#wines #content p,
 		#visit #content p,
@@ -185,14 +223,14 @@
 		/* Section summary */
 		
 			#section-summary {
-				width:812px;
+				width:990px;
 			}
+			
 			#section-summary li {
 				float:left;
-				margin-right:16px;
-				padding-top:131px;
-				width:190px;
+				margin-right:10px;
 			}
+			
 			#section-summary li:last-child {
 				margin-right:0; /* Check in IE6/7 */
 			}
@@ -209,9 +247,7 @@
 				background:url(../images/family/about-awards.jpg) no-repeat;	
 				margin-right:0;		
 			}
-			#section-summary #wine-tasting {
-				background:url(../images/visit/visit-wine-tasting.jpg) no-repeat;	
-			}
+
 			#section-summary .event {
 				background:none;	
 				padding-top:0;
@@ -219,7 +255,7 @@
 			#about #section-summary p,
 			#visit #section-summary p {
 				width:auto;
-			}
+			}		
 		
 	/* Contact page */
 	
@@ -242,6 +278,13 @@
 			margin-left:20px;
 			width:420px;
 		}
+		
+		#bottiglia{
+			float:left;
+			width:280px;
+			margin-left:20px;
+		}
+		
 		#standard #sidebar {
 			float:right;
 			width:370px;
