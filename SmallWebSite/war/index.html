@@ -1,19 +1,18 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
-
 <head>
-	
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	
 	<title>Tenuta Roveglia</title>
-	
 	<link href="/assets/styles/load.css" rel="stylesheet" type="text/css" media="screen" />
-	<!-- <link href="/assets/styles/print.css" rel="stylesheet" type="text/css" media="print" /> -->
-	
+    <script type="text/javascript">
+		function BigImage(){
+			//alert(document.getElementById('welcome').clientHeight);
+			document.getElementById('BigImage').style.height = document.getElementById('welcome').clientHeight + 'px'; 
+		}
+    </script>
 </head>
 
-<body id="home">
+<body id="home" onLoad="BigImage();">
 	
 	<div id="page">
 
@@ -21,7 +20,7 @@
 		
 		<div id="header">
 			
-			<h1><a href="/"><span></span>Tenuta Roveglia</a></h1>
+			<h1><a href="index.html"><span></span>Tenuta Roveglia</a></h1>
 
 			<h2 class="removed">Main navigation</h2>
 
@@ -40,34 +39,35 @@
 				<li><a href="/en/">English</a></li>
 				<li><a href="/de/">Deutsch</a></li>
 			</ul>
+
 			
 		</div>
 		<!-- /#header -->
-		
-		<div id="welcome">
+		<div id="CenterPage">
+	  <div id="welcome">
 			
-			<h2>Benvenuti alla Tenuta Roveglia</h2>
+		<h2>Benvenuti alla Tenuta Roveglia</h2>
 
-			<p>Su una terra già coltivata dai romani – i vecchi contadini ricordano che gli aratri portavano alla luce monete e antichi reperti - si levano le mura quattrocentesche della Cascina Roveglia. Nella vecchia stalla dove le travi, il pavimento e paratie di marmo rosa di Verona ricordano l’antico uso, si apre ora, con mobili antichi e quadri di famiglia, un luogo deputato a degustazioni e eventi conviviali. In una loggetta del XIX secolo si offre all’ospite la degustazione del vino e la vendita. All’ospite la Tenuta Roveglia non offre solo il ricordo della sua storia , ma anche uno sguardo nel presente più avanzato della vitivinicultura e la possibilità di seguire tutto il ciclo produttivo.</p>
-						
-		</div>
+		<p>Su una terra già coltivata dai romani – i vecchi contadini ricordano che gli aratri portavano alla luce monete e antichi reperti - si levano le mura quattrocentesche della Cascina Roveglia. Nella vecchia stalla dove le travi, il pavimento e paratie di marmo rosa di Verona ricordano l’antico uso, si apre ora, con mobili antichi e quadri di famiglia, un luogo deputato a degustazioni e eventi conviviali. In una loggetta del XIX secolo si offre all’ospite la degustazione del vino e la vendita. All’ospite la Tenuta Roveglia non offre solo il ricordo della sua storia , ma anche uno sguardo nel presente più avanzato della vitivinicultura e la possibilità di seguire tutto il ciclo produttivo.</p>
+	  </div>
+
+	  <div id="BigImage">
+	  </div>      
+      </div>
 		<!-- /#welcome -->
-		
+		<div style="clear:both"/>
 		<ul id="section-summary"> 
 			<li id="about">
-				<h3><a href="/it/family/">La famiglia</a></h3>
 			</li>
 			
 			<li id="wines">
-				<h3><a href="it/wines/">I nostri vini</a></h3>
 			</li>
+
 			
 			<li id="visit">
-				<h3><a href="it/visit/">Visitateci</a></h3>
 			</li>
 			
 			<li id="contact">
-				<h3><a href="it/contact/">Contattateci</a></h3>
 			</li>
 		</ul>
 		<!-- /#section-summary -->	
@@ -76,6 +76,8 @@
 	<!-- /#page -->
 	
 	<p id="footer">&copy; Copyright Tenuta Roveglia 2010 v1 | <a href="mailto:info@tenutaroveglia.it">info@tenutaroveglia.it</a></p>
+
 	
 </body>
+
 </html>

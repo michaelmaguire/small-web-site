@@ -3,17 +3,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-	
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	
-	<title>Tenuta Roveglia - Our family</title>
-	
-	<link href="/assets/styles/load.css" rel="stylesheet" type="text/css" media="screen" />
-	<!-- <link href="/assets/styles/print.css" rel="stylesheet" type="text/css" media="print" /> -->
-	
+	<title>Tenuta Roveglia - La famiglia</title>
+	<link href="../../assets/styles/load.css" rel="stylesheet" type="text/css" media="screen" />
+    <script type="text/javascript">
+		function BigImage(){
+			//alert(document.getElementById('welcome').clientHeight);
+			document.getElementById('BigImageFamiglia').style.height = document.getElementById('welcome').clientHeight + 'px'; 
+		}
+    </script>	
 </head>
 
-<body id="home">
+<body id="home" onLoad="BigImage();">
 	
 	<div id="page">
 
@@ -43,7 +44,7 @@
 			
 		</div>
 		<!-- /#header -->
-		
+		<div id="CenterPage">
 		<div id="welcome">
 			
 			<p>
@@ -51,19 +52,24 @@
 			</p>
 						
 		</div>
+	  <div id="BigImageFamiglia">
+	  </div>      
+      </div>        
 		<!-- /#welcome -->
-		
+
+		<div style="clear:both"/>
 		<ul id="section-summary"> 
-			<li id="about">
+			<li id="history">
 			</li>
 			
-			<li id="wines">
+			<li id="family">
 			</li>
 			
-			<li id="visit">
+			<li id="news">
 			</li>
 			
-			<li id="contact">
+			<li id="awards">
+
 			</li>
 		</ul>
 		<!-- /#section-summary -->	
@@ -74,4 +80,5 @@
 	<p id="footer">&copy; Copyright Tenuta Roveglia 2010 | <a href="mailto:info@tenutaroveglia.it">info@tenutaroveglia.it</a></p>
 	
 </body>
+
 </html>

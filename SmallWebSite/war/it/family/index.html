@@ -1,19 +1,18 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
-
 <head>
-	
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	
 	<title>Tenuta Roveglia - La famiglia</title>
-	
-	<link href="/assets/styles/load.css" rel="stylesheet" type="text/css" media="screen" />
-	<!-- <link href="/assets/styles/print.css" rel="stylesheet" type="text/css" media="print" /> -->
-	
+	<link href="../../assets/styles/load.css" rel="stylesheet" type="text/css" media="screen" />
+    <script type="text/javascript">
+		function BigImage(){
+			//alert(document.getElementById('welcome').clientHeight);
+			document.getElementById('BigImageFamiglia').style.height = document.getElementById('welcome').clientHeight + 'px'; 
+		}
+    </script>	
 </head>
 
-<body id="home">
+<body id="home" onLoad="BigImage();">
 	
 	<div id="page">
 
@@ -40,28 +39,34 @@
 				<li><a href="/en/">English</a></li>
 				<li><a href="/de/">Deutsch</a></li>
 			</ul>
+
 			
 		</div>
 		<!-- /#header -->
-		
+		<div id="CenterPage">
 		<div id="welcome">
 			
 			<p>La Tenuta Roveglia nasce dall’amore per la terra di Lugana di un industriale svizzero, Federico Zweifel, emigrato in Lombardia alla fine dell’800. A lui si deve l’acquisto dei primi terreni a vite. Il figlio, Giusto Zweifel, continua con passione e rigore l’opera del padre, dando impulso alla produzione del vino. Negli anni 80 subentra una nuova generazione: il genero, Giovanni Felice Azzone, Accademico dei Lincei, trasferisce dalla cultura scientifica nella pratica della vinificazione il rigore della ricerca e il coraggio dell’innovazione tecnologica. La figlia di Giusto, Annarosa Zweifel si dedica da anni al recupero delle tracce del passato e degli oggetti della tradizione contadina. Le figlie Sara, Vanessa e Babettli Azzone continuano ora la tradizione della famiglia.</p>
 						
 		</div>
+	  <div id="BigImageFamiglia">
+	  </div>      
+      </div>        
 		<!-- /#welcome -->
-		
+
+		<div style="clear:both"/>
 		<ul id="section-summary"> 
-			<li id="about">
+			<li id="history">
 			</li>
 			
-			<li id="wines">
+			<li id="family">
 			</li>
 			
-			<li id="visit">
+			<li id="news">
 			</li>
 			
-			<li id="contact">
+			<li id="awards">
+
 			</li>
 		</ul>
 		<!-- /#section-summary -->	
@@ -72,4 +77,5 @@
 	<p id="footer">&copy; Copyright Tenuta Roveglia 2010 | <a href="mailto:info@tenutaroveglia.it">info@tenutaroveglia.it</a></p>
 	
 </body>
+
 </html>
